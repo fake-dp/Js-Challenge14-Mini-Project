@@ -1,0 +1,65 @@
+:root {
+  --dark-primary-color: #192a56;
+  --dark-secondary-color: #fbc531;
+  --dark-third-color: #f5f6fa;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  background-color: #f5f6fa;
+  color: #2f3640;
+  transition: all 0.5s ease-in;
+}
+
+body.dark {
+  background-color: var(--dark-primary-color);
+  color: var(--dark-secondary-color);
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  width: 120px;
+  height: 30px;
+  border-radius: 15px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  background-color: var(--dark-secondary-color);
+  color: var(--dark-primary-color);
+}
+
+button.dark {
+  background-color: var(--dark-third-color);
+}
+
+.clockWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.time {
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+.date {
+  font-weight: 500;
+  margin-top: 35px;
+  font-size: 1rem;
+}
