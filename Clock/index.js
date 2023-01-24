@@ -13,13 +13,13 @@ date.className = "date";
 
 toggleBtn.addEventListener("click", (e) => {
   const body = document.querySelector("body");
+
+  body.classList.toggle("dark");
+  toggleBtn.classList.toggle("dark");
+
   if (body.classList.contains("dark")) {
-    body.classList.remove("dark");
-    toggleBtn.classList.remove("dark");
     e.target.innerText = "Dark mode";
   } else {
-    body.classList.add("dark");
-    toggleBtn.classList.add("dark");
     e.target.innerText = "Light mode";
   }
 });
