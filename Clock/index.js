@@ -16,11 +16,11 @@ toggleBtn.addEventListener("click", (e) => {
   if (body.classList.contains("dark")) {
     body.classList.remove("dark");
     toggleBtn.classList.remove("dark");
-    e.target.innerHTML = "Dark mode";
+    e.target.innerText = "Dark mode";
   } else {
     body.classList.add("dark");
     toggleBtn.classList.add("dark");
-    e.target.innerHTML = "Light mode";
+    e.target.innerText = "Light mode";
   }
 });
 
