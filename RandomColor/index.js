@@ -17,4 +17,10 @@ changeColorBtn.addEventListener("click", () => {
   const randomColor =
     (document.body.style.backgroundColor = `rgb(${r},${g},${b})`);
   colorText.innerText = randomColor;
+
+  if (r + g + b > 382) {
+    document.body.style.color = "black";
+  } else {
+    document.body.style.color = "white";
+  }
 });
