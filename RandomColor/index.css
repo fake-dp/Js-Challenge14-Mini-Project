@@ -1,0 +1,34 @@
+body {
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  background-color: #f5f6fa;
+  transition: all 0.5s ease-in;
+}
+#container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+button {
+  background: black;
+  color: #fff;
+  border-radius: 15px;
+  width: 180px;
+  height: 50px;
+  border: none;
+  cursor: pointer;
+}
+
+button:active {
+  color: #fff;
+  background: red;
+}
