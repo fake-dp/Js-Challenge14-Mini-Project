@@ -4,7 +4,7 @@ const colorText = document.createElement("h2");
 const changeColorBtn = document.createElement("button");
 
 h1Text.innerText = "Random color";
-changeColorBtn.innerText = "Random Color Pick";
+changeColorBtn.innerText = "Random Color Pick & Copy";
 
 container.appendChild(h1Text);
 container.appendChild(colorText);
