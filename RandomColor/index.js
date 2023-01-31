@@ -6,9 +6,9 @@ const changeColorBtn = document.createElement("button");
 h1Text.innerText = "Random color";
 changeColorBtn.innerText = "Random Color Pick & Copy";
 
-container.appendChild(h1Text);
-container.appendChild(colorText);
-container.appendChild(changeColorBtn);
+container.append(h1Text);
+container.append(colorText);
+container.append(changeColorBtn);
 
 changeColorBtn.addEventListener("click", () => {
   const randomColor = makeRandomColor();
