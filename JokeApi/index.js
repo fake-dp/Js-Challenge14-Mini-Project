@@ -17,6 +17,6 @@ async function getJokeData() {
   };
   const res = await fetch("https://icanhazdadjoke.com", config);
   const data = await res.json();
-  // console.log(data);
+  console.log(data);
   jokeText.innerText = data.joke;
 }
