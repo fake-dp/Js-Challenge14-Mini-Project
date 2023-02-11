@@ -1,6 +1,6 @@
 const container = document.getElementById("container");
 
-const BOXES = 10;
+const BOXES = 20;
 
 for (let i = 0; i < BOXES; i++) {
   const contents = document.createElement("div");
