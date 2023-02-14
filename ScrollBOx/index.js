@@ -19,7 +19,13 @@ function scrollBoxes() {
   const innerHeight = (window.innerHeight / 5) * 4;
   boxes.forEach((box) => {
     const boxTop = box.getBoundingClientRect().top;
-    // console.log("boxTop", boxTop, "innerHeight", innerHeight, boxTop < innerHeight);
+    console.log(
+      "boxTop",
+      boxTop,
+      "innerHeight",
+      innerHeight,
+      boxTop < innerHeight
+    );
 
     if (boxTop < innerHeight) {
       box.classList.add("show");
