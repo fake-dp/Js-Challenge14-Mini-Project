@@ -44,7 +44,7 @@ rightBtnId.addEventListener("click", () => {
   }
 
   bodyBg();
-  ativeSlide();
+  activeSlide();
 });
 
 leftBtn.addEventListener("click", () => {
@@ -54,7 +54,7 @@ leftBtn.addEventListener("click", () => {
   }
 
   bodyBg();
-  ativeSlide();
+  activeSlide();
 });
 
 bodyBg();
@@ -63,7 +63,7 @@ function bodyBg() {
   body.style.backgroundImage = slides[slideInx].style.backgroundImage;
 }
 
-function ativeSlide() {
+function activeSlide() {
   slides.forEach((slide) => slide.classList.remove("active"));
   slides[slideInx].classList.add("active");
 }
