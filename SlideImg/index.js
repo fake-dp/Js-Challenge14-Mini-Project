@@ -23,7 +23,6 @@ for (let i = 0; i < imgBox.length; i++) {
     slideBox.classList.add("slide", "active");
   }
   slideBox.classList.add("slide");
-  slideBox.style.borderRadius = "10px";
   slideBox.style.backgroundImage = `url(${imgBox[i]})`;
   container.appendChild(slideBox);
 }
