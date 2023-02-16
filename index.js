@@ -9,7 +9,7 @@ const myPortfolio = [
   {
     id: 0,
     title: "Art Board",
-    url: "./ArtBoard/index.html",
+    url: "https://js-challenge14-artboard.vercel.app/",
     img: "https://velog.velcdn.com/images/leecodeh/post/44ca2e90-3ead-4029-8d68-7b75eba1bc5b/image.gif",
   },
   {
@@ -51,7 +51,7 @@ const myPortfolio = [
   {
     id: 7,
     title: "Scroll Box",
-    url: "./ScrollBox/index.html",
+    url: "https://js-challenge14-scrollbox.vercel.app/",
     img: "https://velog.velcdn.com/images/leecodeh/post/f1504109-9096-4f49-8b09-40075b03fef4/image.gif",
   },
   {
