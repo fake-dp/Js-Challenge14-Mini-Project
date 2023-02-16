@@ -27,25 +27,25 @@ const myPortfolio = [
   {
     id: 3,
     title: "Joke API",
-    url: "./JokeApi/index.html",
+    url: "https://js-challenge14-mini-project.vercel.app/JokeApi/index.html",
     img: "https://velog.velcdn.com/images/leecodeh/post/335edc73-b671-438e-a638-f84d7c1cf9f1/image.gif",
   },
   {
     id: 4,
     title: "Memo App",
-    url: "./MemoApp/index.html",
+    url: "https://js-challenge14-mini-project.vercel.app/MemoApp/index.html",
     img: "https://velog.velcdn.com/images/leecodeh/post/6cd282ff-6681-46bd-a684-6a1522e27ad6/image.gif",
   },
   {
     id: 5,
     title: "Random Color",
-    url: "./RandomColor/index.html",
+    url: "https://js-challenge14-mini-project.vercel.app/RandomColor/index.html",
     img: "https://velog.velcdn.com/images/leecodeh/post/dfc69a96-c32b-4ff0-9173-071f48ca979f/image.gif",
   },
   {
     id: 6,
     title: "Snow",
-    url: "./Snow/index.html",
+    url: "https://js-challenge14-mini-project.vercel.app/Snow/index.html",
     img: "https://velog.velcdn.com/images/leecodeh/post/7a18a8ea-4cd3-4794-bc06-1db08ce79428/image.gif",
   },
   {
@@ -57,19 +57,19 @@ const myPortfolio = [
   {
     id: 8,
     title: "Slide Img",
-    url: "./SlideImg/index.html",
+    url: "https://js-challenge14-mini-project.vercel.app/SlideImg/index.html",
     img: "https://velog.velcdn.com/images/leecodeh/post/71d13ee7-1444-407b-af18-7ed42cca0daa/image.gif",
   },
   {
     id: 9,
     title: "Random Meal",
-    url: "./RandomMeal/index.html",
+    url: "https://js-challenge14-mini-project.vercel.app/RandomMeal/index.html",
     img: "https://velog.velcdn.com/images/leecodeh/post/c5a8b64b-f11b-43c0-b84b-8c389cf60286/image.gif",
   },
   {
     id: 10,
     title: "Find Users",
-    url: "./FindUsers/index.html",
+    url: "https://js-challenge14-mini-project.vercel.app/FindUsers/index.html",
     img: "",
   },
 ];
