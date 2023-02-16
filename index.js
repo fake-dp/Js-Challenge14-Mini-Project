@@ -66,6 +66,12 @@ const myPortfolio = [
     url: "./RandomMeal/index.html",
     img: "https://velog.velcdn.com/images/leecodeh/post/c5a8b64b-f11b-43c0-b84b-8c389cf60286/image.gif",
   },
+  {
+    id: 10,
+    title: "Find Users",
+    url: "./FindUsers/index.html",
+    img: "",
+  },
 ];
 
 myPortfolio.forEach((portfolio) => {
