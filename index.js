@@ -15,13 +15,13 @@ const myPortfolio = [
   {
     id: 1,
     title: "Clock",
-    url: "./Clock/index.html",
+    url: "https://js-challenge14-mini-project.vercel.app/Clock/index.html",
     img: "https://velog.velcdn.com/images/leecodeh/post/11921a61-c113-42f1-9e99-c970b00bad53/image.gif",
   },
   {
     id: 2,
     title: "Google Form",
-    url: "./GoogleForm/index.html",
+    url: "https://js-challenge14-mini-project.vercel.app/GoogleForm/index.html",
     img: "https://velog.velcdn.com/images/leecodeh/post/82186082-357d-4751-a0d1-ffbb20f439e7/image.gif",
   },
   {
