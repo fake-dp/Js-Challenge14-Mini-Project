@@ -57,7 +57,7 @@ input {
   display: none;
 }
 
-.imgColor {
+.filterImg {
   width: 100px;
   height: 100px;
   object-fit: cover;

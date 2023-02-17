@@ -6,7 +6,7 @@ imgList.className = "imgList";
 selectImg.id = "selectImg";
 
 const label = document.createElement("label");
-label.innerText = "이미지를 필터 생성하기!";
+label.innerText = "이미지 필터 생성하기!";
 label.htmlFor = "file-input";
 label.classList.add("label");
 container.appendChild(label);
@@ -18,7 +18,7 @@ input.id = "file-input";
 input.classList.add("input");
 container.appendChild(input);
 
-const imgColors = [
+const imgFilters = [
   "",
   "grayscale(100%)",
   "sepia(100%)",
@@ -36,11 +36,11 @@ input.addEventListener("change", (e) => {
   const reader = new FileReader();
   reader.readAsDataURL(file);
   reader.onload = () => {
-    for (let i = 0; i < imgColors.length; i++) {
+    for (let i = 0; i < imgFilters.length; i++) {
       const myimg = document.createElement("img");
       myimg.src = reader.result;
-      myimg.classList.add("imgColor");
-      myimg.style.filter = imgColors[i];
+      myimg.classList.add("filterImg");
+      myimg.style.filter = imgFilters[i];
       imgList.appendChild(myimg);
     }
   };
@@ -49,8 +49,8 @@ input.addEventListener("change", (e) => {
 container.appendChild(imgList);
 container.appendChild(selectImg);
 input.addEventListener("click", (e) => {
-  const imgColor = document.querySelectorAll(".imgColor");
-  imgColor.forEach((img) => {
+  const filterImg = document.querySelectorAll(".filterImg");
+  filterImg.forEach((img) => {
     img.remove();
     select.remove();
     saveBtn.remove();
