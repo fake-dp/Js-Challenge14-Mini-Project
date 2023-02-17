@@ -72,6 +72,12 @@ const myPortfolio = [
     url: "https://js-challenge14-mini-project.vercel.app/FindUsers/index.html",
     img: "",
   },
+  {
+    id: 11,
+    title: "test",
+    url: "./test/index.html",
+    img: "",
+  },
 ];
 
 myPortfolio.forEach((portfolio) => {
