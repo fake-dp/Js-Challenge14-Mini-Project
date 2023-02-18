@@ -78,6 +78,12 @@ const myPortfolio = [
     url: "https://js-challenge14-mini-project.vercel.app/ImgFilter/index.html",
     img: "https://velog.velcdn.com/images/leecodeh/post/2513fa3c-fa24-464b-af51-ffec5f58af5f/image.gif",
   },
+  {
+    id: 12,
+    title: "Kanban Board",
+    url: "./KanbanBoard/index.html",
+    img: "",
+  },
 ];
 
 myPortfolio.forEach((portfolio) => {
