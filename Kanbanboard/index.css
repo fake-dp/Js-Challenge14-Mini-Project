@@ -16,10 +16,25 @@ body {
 }
 
 #draggable {
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+  justify-content: center;
   text-align: center;
   background: #fbc531;
   padding: 1px;
   margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.delete {
+  background: #c23616;
+  color: #fff;
+  border-radius: 10px;
+  width: 50px;
+  height: 32px;
+  border: none;
+  cursor: pointer;
 }
 
 #create {
@@ -35,6 +50,7 @@ body {
   border: none;
   cursor: pointer;
   margin-bottom: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
 }
 
 .dropzone-container {
@@ -42,6 +58,7 @@ body {
   background-color: #00a8ff;
   padding: 20px;
   border-radius: 15px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
 }
 
 .dropzone {
@@ -50,7 +67,8 @@ body {
   background: #192a56;
   border-radius: 10px;
   margin: 10px;
-  padding: 20px 30px 20px 30px;
+  padding: 15px 20px 20px 20px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
 }
 
 h1 {
@@ -79,6 +97,12 @@ input {
 
 .dropzone.dragover {
   background-color: #718093;
+  cursor: pointer;
+}
+
+#create.dragover {
+  background-color: #718093;
+  cursor: pointer;
 }
 
 .dragging {

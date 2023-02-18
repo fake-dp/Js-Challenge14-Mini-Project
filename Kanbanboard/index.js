@@ -1,4 +1,24 @@
 const create = document.getElementById("add");
+const firstlist = document.getElementById("create");
+
+create.addEventListener("click", () => {
+  const inputDiv = document.createElement("div");
+  const input = document.createElement("input");
+  const deleteBtn = document.createElement("button");
+
+  deleteBtn.classList.add("delete");
+  deleteBtn.innerText = "삭제";
+
+  firstlist.appendChild(inputDiv);
+  inputDiv.setAttribute("id", "draggable");
+  inputDiv.setAttribute("draggable", "true");
+  inputDiv.appendChild(input);
+  inputDiv.appendChild(deleteBtn);
+
+  deleteBtn.addEventListener("click", () => {
+    inputDiv.remove();
+  });
+});
 
 let dragged;
 
