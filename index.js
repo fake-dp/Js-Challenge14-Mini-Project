@@ -81,7 +81,7 @@ const myPortfolio = [
   {
     id: 12,
     title: "Kanban Board",
-    url: "./KanbanBoard/index.html",
+    url: "./Kanbanboard/index.html",
     img: "",
   },
 ];
