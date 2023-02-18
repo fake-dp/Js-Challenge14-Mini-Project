@@ -81,7 +81,7 @@ const myPortfolio = [
   {
     id: 12,
     title: "Kanban Board",
-    url: "./Kanbanboard/index.html",
+    url: "https://js-challenge14-mini-project.vercel.app/Kanbanboard/index.html",
     img: "",
   },
 ];
