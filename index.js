@@ -1,9 +1,15 @@
-// test
 const container = document.querySelector("#container");
-const listMyPortfolio = document.createElement("ul");
+const listMyPortfolio = document.createElement("div");
+
 const h1 = document.createElement("h1");
 h1.innerText = "My JS Challenge14";
 container.appendChild(h1);
+
+const p = document.createElement("p");
+p.innerText = "Click the title to see the project";
+container.appendChild(p);
+
+listMyPortfolio.className = "listMyPortfolio";
 
 const myPortfolio = [
   {
@@ -82,12 +88,12 @@ const myPortfolio = [
     id: 12,
     title: "Kanban Board",
     url: "https://js-challenge14-mini-project.vercel.app/Kanbanboard/index.html",
-    img: "",
+    img: "https://velog.velcdn.com/images/leecodeh/post/65787b6a-be6d-43a1-99c8-1ed7c3c02ded/image.gif",
   },
 ];
 
 myPortfolio.forEach((portfolio) => {
-  const li = document.createElement("li");
+  const listDiv = document.createElement("div");
   const a = document.createElement("a");
   const img = document.createElement("img");
   img.src = portfolio.img;
@@ -95,10 +101,20 @@ myPortfolio.forEach((portfolio) => {
   a.innerText = portfolio.title;
   a.setAttribute("target", "_blank");
   a.appendChild(img);
-  li.appendChild(a);
-  listMyPortfolio.appendChild(li);
+  listDiv.className = "listDiv";
+  listDiv.appendChild(a);
+  listMyPortfolio.appendChild(listDiv);
 });
 
 container.appendChild(listMyPortfolio);
 
-// test
+const footer = document.createElement("footer");
+footer.className = "footer";
+const footerText = document.createElement("p");
+footerText.innerHTML = `
+    &copy; 2023 fake-dp. All rights reserved.
+    <a href="https://github.com/fake-dp/Js-Challenge14-Mini-Project" target="_blank">Github</a>
+    
+`;
+footer.appendChild(footerText);
+container.appendChild(footer);
