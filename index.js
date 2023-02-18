@@ -70,13 +70,13 @@ const myPortfolio = [
     id: 10,
     title: "Find Users",
     url: "https://js-challenge14-mini-project.vercel.app/FindUsers/index.html",
-    img: "",
+    img: "https://velog.velcdn.com/images/leecodeh/post/00bad735-3eaf-47e3-9957-284b7e5f4cb9/image.gif",
   },
   {
     id: 11,
     title: "Img Filter",
-    url: "./ImgFilter/index.html",
-    img: "",
+    url: "https://js-challenge14-mini-project.vercel.app/ImgFilter/index.html",
+    img: "https://velog.velcdn.com/images/leecodeh/post/2513fa3c-fa24-464b-af51-ffec5f58af5f/image.gif",
   },
 ];
 
