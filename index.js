@@ -6,7 +6,7 @@ h1.innerText = "My JS Challenge14";
 container.appendChild(h1);
 
 const p = document.createElement("p");
-p.innerText = "Click the title to see the project";
+p.innerText = "Click on the title to view the project.";
 container.appendChild(p);
 
 listMyPortfolio.className = "listMyPortfolio";
