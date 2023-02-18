@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  background-color: #0097e6;
+}
+
+#draggable {
+  text-align: center;
+  background: #fbc531;
+  padding: 1px;
+  margin-bottom: 10px;
+}
+
+#create {
+  background: #353b48;
+}
+
+#add {
+  background: #f5f6fa;
+  color: #192a56;
+  border-radius: 15px;
+  width: 180px;
+  height: 50px;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.dropzone-container {
+  display: flex;
+  background-color: #00a8ff;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.dropzone {
+  width: 250px;
+  min-height: 300px;
+  background: #192a56;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 20px 30px 20px 30px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  padding: 0;
+  color: white;
+}
+
+h3 {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+input {
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  padding: 7px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.dropzone.dragover {
+  background-color: #718093;
+}
+
+.dragging {
+  opacity: 0.5;
+}
