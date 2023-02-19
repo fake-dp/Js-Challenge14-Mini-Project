@@ -1,10 +1,22 @@
+<img width="800" src="https://velog.velcdn.com/images/leecodeh/post/5dd6426b-d3d9-4cc5-92ba-f4364d1654fa/image.gif"/>
+
+---
+
 ## 🍎 JS Challenge 14
 
 JS Challenge14는 오직 자바스크립트만을 활용하여 다양한 웹 미니 프로젝트를 만드는 것이 목표입니다.
 프로젝트를 진행하면서 다양한 함수를 만들어보고, 돔을 조작하면서 다양한 웹 페이지를 만들어 보았습니다.
 
-배포 사이트 : [https://js-challenge14-mini-project.vercel.app/](https://js-challenge14-mini-project.vercel.app/)
-블로그 : [https://velog.io/@leecodeh/series/JS-Challenge14](https://velog.io/@leecodeh/series/JS-Challenge14)
+<br />
+
+### 기술스택
+
+🍏 html, css, javascript, vercel(배포)
+
+배포 사이트 : [https://js-challenge14-mini-project.vercel.app/](https://js-challenge14-mini-project.vercel.app/) <br />
+블로그 시리즈 : [https://velog.io/@leecodeh/series/JS-Challenge14](https://velog.io/@leecodeh/series/JS-Challenge14)
+
+---
 
 | #   | 프로젝트                                                                                     | 배포                                                                          | 블로그                                                                                                                                                |
 | --- | -------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
