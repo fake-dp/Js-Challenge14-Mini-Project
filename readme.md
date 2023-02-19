@@ -50,7 +50,7 @@
   
   <details>
   <summary> Slide Img </summary>
-      <img width="700" src="https://velog.velcdn.com/images/leecodeh/post/71d13ee7-1444-407b-af18-7ed42cca0daa/image.gif"/>
+      <img width="700" src="https://velog.velcdn.com/images/leecodeh/post/c5a8b64b-f11b-43c0-b84b-8c389cf60286/image.gif"/>
   </details>
   
   <details>
@@ -83,27 +83,15 @@
 
 :------------------:|:------------------:|:------------------:|:------------------:
 1 | [Google Form](https://github.com/fake-dp/Js-Challenge14-Mini-Project/tree/main/GoogleForm) | [배포](https://js-challenge14-mini-project.vercel.app/GoogleForm/index.html) | [블로그](https://velog.io/@leecodeh/Js-Challenge14-1-%EA%B5%AC%EA%B8%80-%EC%82%AC%EC%9D%B4%ED%8A%B8-%EB%A7%8C%EB%93%A4%EA%B8%B0)
-
 2 | [Clock](https://github.com/fake-dp/Js-Challenge14-Mini-Project/tree/main/Clock) | [배포](https://js-challenge14-mini-project.vercel.app/Clock/index.html) | [블로그](https://velog.io/@leecodeh/Js-Challenge14-2-%EC%8B%9C%EA%B3%84-%EB%A7%8C%EB%93%A4%EA%B8%B0-dark-light)
-
 3 | [Snow](https://github.com/fake-dp/Js-Challenge14-Mini-Project/tree/main/Snow) | [배포](https://js-challenge14-mini-project.vercel.app/Snow/index.html) | [블로그](https://velog.io/@leecodeh/Js-Challenge14-3-Snow-animation)
-
 4 | [Artboard](https://github.com/fake-dp/Js-Challenge14-Mini-Project/tree/main/Artboard) | [배포](https://js-challenge14-artboard.vercel.app/) | [블로그](https://velog.io/@leecodeh/Js-Challenge14-4-art-board)
-
 5 | [RandomColor](https://github.com/fake-dp/Js-Challenge14-Mini-Project/tree/main/RandomColor) | [배포](https://js-challenge14-mini-project.vercel.app/RandomColor/index.html) | [블로그](https://velog.io/@leecodeh/Js-Challenge14-5-Random-Color-%EA%B0%92%EA%B0%80%EC%A0%B8%EC%98%A4%EA%B8%B0-%EB%B3%B5%EC%82%AC%ED%95%98%EA%B8%B0)
-
 6 | [Joke Api](https://github.com/fake-dp/Js-Challenge14-Mini-Project/tree/main/JokeApi) | [배포](https://js-challenge14-mini-project.vercel.app/JokeApi/index.html) | [블로그](https://velog.io/@leecodeh/Js-Challenge14-7-Random-Joke-API)
-
 7 | [Memo App](https://github.com/fake-dp/Js-Challenge14-Mini-Project/tree/main/MemoApp) | [배포](https://js-challenge14-mini-project.vercel.app/MemoApp/index.html) | [블로그](https://velog.io/@leecodeh/Js-Challenge14-7-Memo-App)
-
 8 | [Scroll Box](https://github.com/fake-dp/Js-Challenge14-Mini-Project/tree/main/ScrollBox) | [배포](https://js-challenge14-scrollbox.vercel.app/) | [블로그](https://velog.io/@leecodeh/Js-Challenge14-8-Scroll-animation)
-
 9 | [Slide Img](https://github.com/fake-dp/Js-Challenge14-Mini-Project/tree/main/SlideImg) | [배포](https://js-challenge14-mini-project.vercel.app/SlideImg/index.html) | [블로그](https://velog.io/@leecodeh/Js-Challenge14-9-Slider-Img)
-
 10 | [Random Meal](https://github.com/fake-dp/Js-Challenge14-Mini-Project/tree/main/RandomMeal) | [배포](https://js-challenge14-mini-project.vercel.app/RandomMeal/index.html) | [블로그](https://velog.io/@leecodeh/Js-Challenge14-10-Random-meal)
-
 11 | [Find Users](https://github.com/fake-dp/Js-Challenge14-Mini-Project/tree/main/FindUsers) | [배포](https://js-challenge14-mini-project.vercel.app/FindUsers/index.html) | [블로그](https://velog.io/@leecodeh/Js-Challenge14-11-Find-Users)
-
 12 | [Img Filter](https://github.com/fake-dp/Js-Challenge14-Mini-Project/tree/main/ImgFilter) | [배포](https://js-challenge14-mini-project.vercel.app/ImgFilter/index.html) | [블로그](https://velog.io/@leecodeh/Js-Challenge14-12-Img-Filter)
-
 13 | [Kanban Board](https://github.com/fake-dp/Js-Challenge14-Mini-Project/tree/main/Kanbanboard) | [배포](https://js-challenge14-mini-project.vercel.app/Kanbanboard/index.html) | [블로그](https://velog.io/@leecodeh/Js-Challenge14-13-Kanban-Board)
