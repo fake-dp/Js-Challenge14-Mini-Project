@@ -82,7 +82,7 @@ JS Challenge14는 오직 자바스크립트만을 활용하여 다양한 웹 미
   
   <details>
   <summary> Slide Img </summary>
-      <img width="700" src="https://velog.velcdn.com/images/leecodeh/post/c5a8b64b-f11b-43c0-b84b-8c389cf60286/image.gif"/>
+      <img width="700" src="https://velog.velcdn.com/images/leecodeh/post/71d13ee7-1444-407b-af18-7ed42cca0daa/image.gif"/>
   </details>
   
   <details>
